@@ -4,56 +4,55 @@ public class _1Variables {
 
 	public static void main(String[] args) {
 
-		String "David" = name ;
+		String name = "David";
 		
 		int x = 42;
 		
 		System.out.println(x);
 		
-
+		
+		int y = 5;
 		
 		int sum = x + y;
 
-		int y = 5;
 		
-		System.out.println("Sum of x and y is "+ sum);
 		
-		int age;
+		System.out.println("Sum of x and y is: " + sum);
+		
+		int age = 30;
 		
 		System.out.println(age);
 		
 		
 		double decimal = age + 0.5;
 		
-		int value = decimal;
+		int value = (int)decimal;
 		
 		System.out.println(age);
 		System.out.println(decimal);
-         System.out.println(value);
+         	System.out.println(value);
 
 	
-		float anotherDecimalTypeNumber = "5.25";
+		float anotherDecimalTypeNumber = 5.25;
 		
-		String _year = "2024";
+		int _year = 2024;
+		
+		System.out.println("Year is: " + _year);
+		
+		int _1Year = _year + 1;
+		
+		String year2 = String.format("The year is: %d", _year + 2);
+		String year3 = String.valueOf(_year + 2);
 
-
 		
-		System.out.println("Year is: ");
+		String occupation = "Magician";
 		
-		String +1Year= year + 1;
-		
-		String year2 = year + 2;
+		String firstWords = "Hello, world!";
 		
 		
-		String class = "Magician";
-		
-		
-		String firstWords? = 'Hello, world!';
-		
-		
-		System.out.println(class + "says: " + firstWords);
+		System.out.println(occupation + "says: " + firstWords);
 				
-		double tenDividedByThree = 10 / 3;
+		double tenDividedByThree = 10.0 / 3.0;
 		
 		System.err.println(tenDividedByThree);
 		
